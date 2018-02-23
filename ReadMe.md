@@ -5,6 +5,7 @@ A Visual Studio 2017 project to test impersonation-level on a WindowsIdentity cr
 This solution is written/tested with:
 - Windows 10
 - Visual Studio 2017
+- .NET Framework 4.7.1
 
 When you run these tests in Visual Studio, the Visual Studio process runs with your account, the account you used to login to your computer. To check who:
 
