@@ -2,7 +2,7 @@
 
 A Visual Studio 2017 project to test impersonation-level on a WindowsIdentity created from a user-principal-name.
 
-This solution is written/tested for:
+This solution is written/tested with:
 - Windows 10
 - Visual Studio 2017
 
@@ -24,7 +24,8 @@ you have to set your account to **act as part of the operating system**.
 
 1. Open **secpol.msc**
 2. Security Settings (Säkerhetsinställningar) -> Local Policies (Lokala principer) -> User Rights Assignment (Tilldening av användarrättigheter)
-3. Add your account to **Act as part of the operating system** (**Agera som del av operativsystemet**).
+3. Add your account to **Act as part of the operating system** (**Agera som del av operativsystemet**)
+4. Log out/and log in again
 
 ## Claims to Windows Token Service
 To be able to create an "impersonatable" WindowsIdentity from a user-principal-name, by calling:
