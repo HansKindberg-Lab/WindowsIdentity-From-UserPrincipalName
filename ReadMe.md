@@ -45,7 +45,7 @@ you need to configure the **Claims to Windows Token Service** (windows-service).
                 <supportedRuntime version="v4.0" />
             </startup>
             <windowsTokenService>
-                <!-- By default no callers are allowed to use the Windows Identity Foundation Claims To NT Token Service.Add the identities you wish to allow below. -->
+                <!-- By default no callers are allowed to use the Windows Identity Foundation Claims To NT Token Service. Add the identities you wish to allow below. -->
                 <allowedCallers>
                     <clear />
                     <!-- <add value="NT AUTHORITY\Network Service" /> -->
