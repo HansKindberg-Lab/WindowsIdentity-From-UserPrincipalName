@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project", "Project\Project.csproj", "{C763A303-C992-4155-8DB6-E9413D2225CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Global", ".Global", "{3B6E83E7-E790-429A-8B66-F5B0EF99E8AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{573169BF-78E5-4086-87B7-5050837D2C19}"
+	ProjectSection(SolutionItems) = preProject
+		..\ReadMe.md = ..\ReadMe.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{F5C445FD-D54F-4134-957A-67A3565AA799}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{C4637273-ED7C-4524-B2B9-A17D2CC85A26}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C763A303-C992-4155-8DB6-E9413D2225CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C763A303-C992-4155-8DB6-E9413D2225CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C763A303-C992-4155-8DB6-E9413D2225CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C763A303-C992-4155-8DB6-E9413D2225CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{573169BF-78E5-4086-87B7-5050837D2C19} = {3B6E83E7-E790-429A-8B66-F5B0EF99E8AC}
+		{F5C445FD-D54F-4134-957A-67A3565AA799} = {3B6E83E7-E790-429A-8B66-F5B0EF99E8AC}
+		{C4637273-ED7C-4524-B2B9-A17D2CC85A26} = {3B6E83E7-E790-429A-8B66-F5B0EF99E8AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F2F30D8-E67A-49CB-930F-BDE2E2BB6173}
+	EndGlobalSection
+EndGlobal

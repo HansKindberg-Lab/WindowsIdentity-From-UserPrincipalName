@@ -1,0 +1,5 @@
+<Project>
+	<Target Name="EnsureApplicationConfigurationFile" BeforeTargets="BeforeBuild">
+		<Copy Condition="!Exists('App.config')" DestinationFiles="App.config" SourceFiles="App.Default.config" />
+	</Target>
+</Project>
